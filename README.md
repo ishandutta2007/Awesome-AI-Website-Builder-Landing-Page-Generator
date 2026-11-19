@@ -1,209 +1,164 @@
-# Awesome-AI-Website-Builder-Landing-Page-Generator
-
 # Awesome AI Website Builder & Landing Page Generator 🌟
 
-
-
-> **Top AI Website Builder Landing Page Generator (Opensource)**  
-
-> A curated list of the best AI-powered website builders and landing page generators — with a strong focus on **open-source** and self-hostable alternatives.  
-
-> 🌟 **Star if you like it!** 🌟
-
-
-
-AI website builders and landing page generators let you go from a simple prompt or description to a fully designed, responsive site (or conversion-focused landing page) in minutes. Commercial tools like Durable, 10Web, Framer AI, and others dominate the hosted space, but a growing ecosystem of open-source projects gives you full control, no vendor lock-in, and the ability to run locally or self-host.
-
-
-
-This list prioritizes **open-source GitHub projects** while keeping SaaS/hosted platforms clearly separated.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS / Hosted Platforms
-
-
-
-These are popular commercial AI website builders and landing page generators (closed-source / hosted):
-
-
-
-- **[Durable](https://durable.co/)** — Generates a complete business website + CRM + invoicing in under 60 seconds. Ideal for local service businesses and solopreneurs.
-
-- **[10Web](https://10web.io/)** — AI website builder built on WordPress + Elementor. Can recreate sites from a URL or prompt and hosts on Google Cloud with performance optimization.
-
-- **[Framer AI](https://www.framer.com/)** — Design-first AI website builder with a powerful visual canvas, advanced animations, and CMS. Excellent for designers who want pixel-perfect control.
-
-- **[Wix Studio AI](https://www.wix.com/studio)** — AI-assisted website creation inside the Wix ecosystem (ADI + Studio tools). Strong for beginners and full marketing sites.
-
-- **[Hostinger AI Website Builder](https://www.hostinger.com/)** — Fast AI site generation tightly integrated with Hostinger hosting.
-
-- **[Dorik AI](https://dorik.com/)** — AI website & landing page builder focused on speed and simplicity.
-
-- **[Relume](https://www.relume.io/)** — AI-powered component library and site structure generator that works great with Figma → Webflow/Framer workflows.
-
-- **[TeleportHQ](https://teleporthq.io/)** — AI-assisted visual development platform with code export.
-
-- **[B12](https://www.b12.io/)** — AI website builder aimed at professional services (lawyers, consultants, agencies) with built-in marketing tools.
-
-- **[CodeDesign.ai](https://codedesign.ai/)** — AI website & landing page generator with clean code export options.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-Open-source alternatives and tools you can self-host, run locally, or extend. These range from full visual AI builders to prompt-to-landing-page generators and developer-focused frameworks.
-
-
-
-### Full AI Website / App Builders
-
-
-
-- **[buildingopen/openpage](https://github.com/buildingopen/openpage)**  
-
-  Open-source website builder with a Framer-like visual drag-and-drop editor + AI site generation (Gemini). JSON-first architecture (single source of truth). Self-hosted alternative to Framer / Lovable / v0. Built with React 19, TypeScript, Tailwind CSS v4. MIT.
-
-
-
-- **[stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy)**  
-
-  The popular open-source version of Bolt.new. Prompt → full-stack web apps & sites in the browser using WebContainers. Supports 20+ LLM providers (OpenAI, Anthropic, Gemini, Groq, Ollama, local models, etc.). Live preview, terminal, code editor, one-click deploy. Extremely active (~20k+ stars). MIT.
-
-
-
-- **[webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)**  
-
-  Advanced open-source visual website builder (strong Webflow/Framer alternative). Full CSS control, components, CMS connections, animations. AI support via MCP (agents can build/edit projects) + separate Inception design exploration tool. AGPL core. Self-hostable + hosted option.
-
-
-
-### AI Landing Page Generators
-
-
-
-- **[zinedkaloc/aipage.dev](https://github.com/zinedkaloc/aipage.dev)** (and forks such as jeus0522/AI-Landing-Page-Generator)  
-
-  Classic open-source AI landing page generator. Describe your page → get clean HTML + Tailwind CSS. Simple, fast, and still widely forked/used. MIT.
-
-
-
-- **[keyflowcoreg/pageforge](https://github.com/keyflowcoreg/pageforge)**  
-
-  AI landing page generator powered by Gemini 2.0 Flash. Multiple template styles, live responsive preview, export as Next.js or standalone HTML.
-
-
-
-- **[alexar76/aicom-landing](https://github.com/alexar76/aicom-landing)**  
-
-  One-prompt → self-contained HTML landing page in ~30–60 seconds. 20 style presets. Fully self-hosted, supports OpenAI / Ollama / DeepSeek. MIT. Perfect for rapid MVPs and A/B testing.
-
-
-
-- **[Cybrarist/InstantLand](https://github.com/Cybrarist/InstantLand)**  
-
-  Open-source landing page / marketing site builder with GrapeJS visual editor, A/B testing, custom forms, and campaign tools. Self-hostable (PHP/Laravel stack).
-
-
-
-### Other Notable Open-Source Tools & Templates
-
-
-
-- **[HugoBlox/hugo-theme-saas-landing-page](https://github.com/HugoBlox/hugo-theme-saas-landing-page)**  
-
-  Markdown-first SaaS landing page system. AI can generate the content; you own clean Markdown files. Extremely fast, free hosting forever (static). Great for developers who hate React maintenance.
-
-
-
-- **[RayVelez27/instalanding.ai](https://github.com/RayVelez27/instalanding.ai)**  
-
-  Library of premium single-file HTML landing pages + motion components. No frameworks, no build step. Designed for humans *and* AI coding agents (includes one-shot prompts).
-
-
-
-- **[ln-dev7/landing-pages](https://github.com/ln-dev7/landing-pages)**  
-
-  Collection of distinctive, personality-rich open-source landing pages built with Next.js + Tailwind + shadcn/ui.
-
-
-
-- **[all-in-aigc/pagen-ai-landing-page-template](https://github.com/all-in-aigc/pagen-ai-landing-page-template)**  
-
-  Clean Next.js + shadcn/ui AI landing page template generated by Pagen AI. Easy to customize.
-
-
-
-- **GrapesJS-based builders** and related projects (search “grapesjs landing” or “grapesjs page builder”) — the foundational open-source visual page builder that many self-hosted tools build upon.
-
-
-
-- Additional emerging projects worth watching: various multi-agent SEO landing page systems, local Ollama-powered generators, and visual editors that integrate with agents via MCP.
-
-
-
-> **Tip**: Many of the strongest open-source options today are either (1) visual builders with AI/MCP support (OpenPage, Webstudio) or (2) full prompt-to-app environments you can self-host (bolt.diy). For pure marketing landing pages, the simpler HTML/Tailwind generators are often the fastest path.
-
-
-
-## How to Contribute
-
-
-
-Contributions are welcome and encouraged!
-
-
-
-1. Fork the repository
-
-2. Add a new tool under the appropriate section (keep SaaS and Open-Source strictly separate)
-
-3. Use the same format: **Name** — short description + key features + license/link
-
-4. Prefer actively maintained projects with clear documentation
-
-5. Submit a Pull Request
-
-
-
-Please keep descriptions neutral and factual. Open-source projects are the primary focus of this list.
-
-
-
-## Disclaimer
-
-
-
-This is a community-curated list for informational purposes only.  
-
-Inclusion does not constitute an endorsement. Always review licenses, privacy policies, pricing, and security practices before using any tool (especially when handling customer data or deploying to production).  
-
-
-
-Some “open-source” projects may have dual licensing, proprietary components, or require paid API keys for AI features. Check the actual LICENSE file and documentation.
-
-
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-AI-Website-Builder-Landing-Page-Generator/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-AI-Website-Builder-Landing-Page-Generator/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-Website-Builder-Landing-Page-Generator/blob/main/CONTRIBUTING.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> **The definitive curated list of the best AI-powered website builders, automated landing page generators, and prompt-to-web frameworks — spotlighting open-source alternatives and leading SaaS solutions.**
+
+AI website builders and landing page generators enable creators, developers, and businesses to transform natural language prompts, wireframes, and design specs into responsive, high-converting websites in seconds. While hosted SaaS platforms deliver managed infrastructure, an expanding open-source ecosystem offers self-hostable codebases, zero vendor lock-in, and programmatic customization via LLMs and AI coding agents.
 
 ---
 
+## 📑 Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS / Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+  - [Full AI Website & App Builders](#full-ai-website--app-builders)
+  - [AI Landing Page Generators](#ai-landing-page-generators)
+  - [Developer Templates & Foundational Frameworks](#developer-templates--foundational-frameworks)
+- [Feature Comparison Matrix](#feature-comparison-matrix)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made with ❤️ for the open-source community**  
+---
 
-If this list helped you, please ⭐ the repo!
+## Sector Overview & Market Dynamics
+
+The global website builder market is estimated at **$4.0B–$4.7B**, with the dedicated AI website builder segment surging from **$3.1B towards $3.75B+** at a compound annual growth rate (**CAGR of ~20–25%**). 
+
+The sector displays a **bifurcated, moderately fragmented market structure**: legacy giants (Wix, Shopify, GoDaddy, Squarespace) anchor market share and capital, yet the category remains intensely disrupted by an agile wave of AI-native challengers (such as Framer, Durable, 10Web, and Bolt.new) and self-hosted open-source builders that prevent a winner-take-all monopoly.
+
+---
+
+## SaaS / Hosted Platforms
+
+Below is a breakdown of commercial AI website builders and landing page platforms, sorted in descending order by estimated company valuation / annual revenue:
+
+| Platform | Starting Price (Paid Tier) | Free Tier Limits / Evaluation | Company Size (Valuation / Revenue) | Key Features & Best Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Wix Studio AI](https://www.wix.com/studio)** | $17/mo (Light tier, billed annually) | Free forever plan: 500 MB storage, 500 MB bandwidth, Wix ads, `wixsite.com` subdomain | **~$8B–$10B Valuation** ($1.5B+ ARR) | Enterprise-grade CMS, generative layout creation, ADI automation, and complete eCommerce infrastructure. |
+| **[Hostinger AI Builder](https://www.hostinger.com/)** | $2.49–$2.99/mo (48-mo term; renews at $10.99/mo) | No free tier; offers 30-day money-back guarantee with full builder access | **~$500M+ Valuation** ($150M+ ARR) | Budget-friendly AI site builder coupled with managed cloud hosting, free custom domain, and business email. |
+| **[Framer AI](https://www.framer.com/)** | $10/mo (Basic tier per site, billed annually) | Free forever plan: 1 project, banner branding, `framer.website` subdomain, free canvas design tools | **$2B Valuation** ($50M+ ARR) | Designer-centric visual canvas, high-fidelity responsive design, micro-interactions, CMS, and AI text/style tools. |
+| **[B12](https://www.b12.io/)** | $24/mo (Website tier, billed annually) | Free plan: basic site generation draft, B12 subdomain, capped monthly AI tokens; optional 7-day $1 trial | **~$63M Valuation** (~$8.3M ARR) | Designed for professional services (consultants, legal, accounting) with built-in client invoicing, scheduling, and contracts. |
+| **[10Web](https://10web.io/)** | $10/mo (AI Starter, billed annually) | 3-day full-feature free trial with private site preview lock (no permanent free tier; requires upgrade to publish) | **~$30M–$40M Valuation** (~$25M ARR) | Automated WordPress site generator, Elementor visual widget replication, and Google Cloud managed hosting. |
+| **[TeleportHQ](https://teleporthq.io/)** | $18/mo (per workspace seat, billed annually) | Free forever plan: 1 project workspace, `teleporthq.io` subdomain, free UI builder & basic code export | **~$15M–$20M Valuation** (~$3.67M Total Funding) | Visual front-end builder with OpenAI integration, real-time code generation (React, Vue, HTML/CSS), and Figma import. |
+| **[Durable](https://durable.co/)** | $22/mo (Launch tier, billed annually) | Free plan: unlimited site re-generations, 300 AI credits, up to 10 CRM contacts, hosted on `.durable.site` | **~$15M–$25M Valuation** (~$3M–$5M ARR) | 60-second end-to-end small business creation featuring integrated mini-CRM, AI copywriter, invoicing, and local SEO tools. |
+| **[Relume](https://www.relume.io/)** | $12/mo (Publish tier, billed annually) | Free plan: 1 AI project, 1,500 monthly page views on `relumesite.ai` subdomain, sitemap and wireframe generator | **Bootstrap / Venture-backed** (~$3.3M ARR) | AI sitemap generator, wireframe builder, and seamless Figma-to-Webflow component library export. |
+| **[CodeDesign.ai](https://codedesign.ai/)** | $24/mo (Growth tier, billed annually) | Free plan: 3 AI site generations, unlimited manual canvas editing, published on `codedesign.app` subdomain | **Early Stage / Bootstrapped** (~$1M–$2M ARR) | Prompt-to-web generator with visual canvas, responsive layouts, and direct clean HTML/React code export options. |
+| **[Dorik AI](https://dorik.com/)** | $20.75/mo (Personal tier, billed annually) | 7-day free trial on paid plans (full access to test builder and templates; permanent free tier discontinued) | **Early Stage / Bootstrapped** (~$1M–$2M ARR) | Intuitive no-code website builder with AI copy, image generation, custom forms, white-label CMS, and responsive layouts. |
+
+---
+
+## Open-Source GitHub Projects
+
+Explore battle-tested open-source website builders, landing page engines, and AI scaffolding templates you can self-host, audit, and extend without licensing lock-in.
+
+The repositories below are **sorted in descending order by GitHub Stars**:
+
+### Full AI Website & App Builders
+
+* **[GrapesJS](https://github.com/GrapesJS/grapesjs)** [![Stars](https://img.shields.io/github/stars/GrapesJS/grapesjs?style=social&color=white)](https://github.com/GrapesJS/grapesjs/stargazers)  
+  *Next-generation open-source multi-purpose Web Builder framework.* Foundational visual editor framework used across hundreds of web builder projects. Extensible architecture supporting AI prompt plugins, drag-and-drop block systems, and native HTML/CSS code compilation. **License:** MIT.
+
+* **[bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** [![Stars](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy?style=social&color=white)](https://github.com/stackblitz-labs/bolt.diy/stargazers)  
+  *Open-source self-hostable version of Bolt.new.* Converts prompts into complete, full-stack web applications and responsive multi-page websites in-browser via WebContainers. Compatible with 20+ LLMs (OpenAI, Anthropic Claude, Gemini, Groq, Ollama, local models). Features live preview, integrated shell, and one-click containerized deployments. **License:** MIT.
+
+* **[Webstudio](https://github.com/webstudio-is/webstudio)** [![Stars](https://img.shields.io/github/stars/webstudio-is/webstudio?style=social&color=white)](https://github.com/webstudio-is/webstudio/stargazers)  
+  *Open-source visual website builder and Webflow alternative.* Professional-grade visual styling engine with full CSS support, headless CMS integrations, and Model Context Protocol (MCP) support so autonomous AI agents can modify, assemble, and style web pages directly. **License:** AGPL-3.0.
+
+* **[chaibuilder/core](https://github.com/chaibuilder/core)** [![Stars](https://img.shields.io/github/stars/chaibuilder/core?style=social&color=white)](https://github.com/chaibuilder/core/stargazers)  
+  *AI-enabled visual website builder tailored for Next.js & Tailwind CSS.* Embeddable React/Next.js page builder library with built-in AI block generation, real-time visual canvas editing, and clean production React code output. **License:** MIT.
+
+* **[Ai-Website-Builder](https://github.com/Ratna-Babu/Ai-Website-Builder)** [![Stars](https://img.shields.io/github/stars/Ratna-Babu/Ai-Website-Builder?style=social&color=white)](https://github.com/Ratna-Babu/Ai-Website-Builder/stargazers)  
+  *Prompt-to-site generator powered by Gemini AI, Next.js, and Tailwind CSS.* Transforms natural language prompts into responsive React components with real-time multi-user collaboration using a Convex backend, real-time theme customization, and instant code export. **License:** MIT.
+
+* **[OpenPage](https://github.com/buildingopen/openpage)** [![Stars](https://img.shields.io/github/stars/buildingopen/openpage)](https://github.com/buildingopen/openpage/stargazers)  
+  *Framer-like open-source visual editor with AI generation.* Self-hosted alternative to Framer, Lovable, and v0. Built with React 19, TypeScript, and Tailwind CSS v4, featuring a JSON-first document model as the single source of truth. **License:** MIT.
+
+---
+
+### AI Landing Page Generators
+
+* **[pagen-ai-landing-page-template](https://github.com/all-in-aigc/pagen-ai-landing-page-template)** [![Stars](https://img.shields.io/github/stars/all-in-aigc/pagen-ai-landing-page-template?style=social&color=white)](https://github.com/all-in-aigc/pagen-ai-landing-page-template/stargazers)  
+  *Modern AI-generated landing page template built on Next.js & shadcn/ui.* Produced by Pagen AI, providing high-converting marketing layouts, responsive typography, and rapid customization for tech startups. **License:** MIT.
+
+* **[aipage.dev](https://github.com/zinedkaloc/aipage.dev)** [![Stars](https://img.shields.io/github/stars/zinedkaloc/aipage.dev?style=social&color=white)](https://github.com/zinedkaloc/aipage.dev/stargazers)  
+  *Lightweight AI landing page generator.* Enter product specifications or a landing concept to generate single-page HTML with styled Tailwind CSS. Minimal setup, fast execution, and easily customized. **License:** MIT.
+
+* **[ship-saas-one-click](https://github.com/fengyunzaidushi/ship-saas-one-click)** [![Stars](https://img.shields.io/github/stars/fengyunzaidushi/ship-saas-one-click?style=social&color=white)](https://github.com/fengyunzaidushi/ship-saas-one-click/stargazers)  
+  *One-click AI SaaS startup template with built-in landing page & blog generator.* Features full internationalization (i18n), Supabase database integration, and Stripe payment flows alongside automated landing page assembly. **License:** MIT.
+
+* **[InstantLand](https://github.com/Cybrarist/InstantLand)** [![Stars](https://img.shields.io/github/stars/Cybrarist/InstantLand?style=social&color=white)](https://github.com/Cybrarist/InstantLand/stargazers)  
+  *Self-hosted landing page and marketing site builder.* Backed by PHP/Laravel and GrapeJS, offering native A/B testing suites, custom lead-capture forms, and conversion analytics. **License:** MIT.
+
+* **[Sable](https://github.com/roshandhiman/Sable)** [![Stars](https://img.shields.io/github/stars/roshandhiman/Sable?style=social&color=white)](https://github.com/roshandhiman/Sable/stargazers)  
+  *AI landing page generator with split-screen live workspace.* Supports Groq (Llama 3.3), Gemini Flash, and OpenRouter with automatic provider failover to generate animated, responsive landing pages from conversational prompts. **License:** MIT.
+
+* **[aicom-landing](https://github.com/alexar76/aicom-landing)** [![Stars](https://img.shields.io/github/stars/alexar76/aicom-landing?style=social&color=white)](https://github.com/alexar76/aicom-landing/stargazers)  
+  *One-prompt single-file HTML landing page generator.* Produces standalone HTML/CSS landing pages in under 60 seconds with 20 style presets. Supports OpenAI, DeepSeek, and local Ollama inference. **License:** MIT.
+
+* **[pageforge](https://github.com/keyflowcoreg/pageforge)** [![Stars](https://img.shields.io/github/stars/keyflowcoreg/pageforge?style=social&color=white)](https://github.com/keyflowcoreg/pageforge/stargazers)  
+  *AI landing page generator powered by Gemini Flash.* Features multiple template archetypes, live viewport preview, and clean export to Next.js or static HTML. **License:** MIT.
+
+---
+
+### Developer Templates & Foundational Frameworks
+
+* **[landing-pages](https://github.com/ln-dev7/landing-pages)** [![Stars](https://img.shields.io/github/stars/ln-dev7/landing-pages?style=social&color=white)](https://github.com/ln-dev7/landing-pages/stargazers)  
+  *Curated collection of expressive open-source landing pages.* Crafted with Next.js, Tailwind CSS, and shadcn/ui. Highly modular structure optimized for integration with AI design-to-code pipelines. **License:** MIT.
+
+* **[instalanding.ai](https://github.com/RayVelez27/instalanding.ai)** [![Stars](https://img.shields.io/github/stars/RayVelez27/instalanding.ai?style=social&color=white)](https://github.com/RayVelez27/instalanding.ai/stargazers)  
+  *Framework-free single-file HTML landing page library.* Includes rich motion components and structured one-shot prompts specifically formatted for AI coding agents (Claude Code, Cursor, Copilot). **License:** MIT.
+
+* **[hugo-theme-saas-landing-page](https://github.com/HugoBlox/hugo-theme-saas-landing-page)** [![Stars](https://img.shields.io/github/stars/HugoBlox/hugo-theme-saas-landing-page?style=social&color=white)](https://github.com/HugoBlox/hugo-theme-saas-landing-page/stargazers)  
+  *Markdown-first SaaS landing page generator powered by Hugo Blox.* Enables AI engines to generate clean content in pure Markdown while providing near-instant static loading speeds and perpetual zero-cost static hosting on GitHub Pages or Cloudflare. **License:** MIT.
+
+---
+
+## 🔍 Feature Comparison Matrix
+
+| Project / Platform | Type | Primary Stack | AI Integration Model | Export Options | Self-Hostable |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **GrapesJS** | Open Source | JavaScript / Vanilla | Extensible / Community Plugins | HTML, CSS, JSON | ✅ Yes |
+| **bolt.diy** | Open Source | WebContainers / Remix | 20+ Providers (Ollama, Claude, OpenAI) | Full Project ZIP / Git Repo | ✅ Yes |
+| **Webstudio** | Open Source | React / Remix / Radix | MCP Agents / Custom APIs | React / Clean CSS / Cloud | ✅ Yes |
+| **chaibuilder/core** | Open Source | React / Next.js / Tailwind | OpenAI / Custom Prompts | Next.js / React Code | ✅ Yes |
+| **OpenPage** | Open Source | React 19 / Tailwind v4 | Google Gemini / Claude | JSON / HTML / React | ✅ Yes |
+| **Framer AI** | Commercial SaaS | Proprietary React Engine | Built-in Multi-model AI | Framer Cloud / Webpack / React | ❌ No |
+| **Wix Studio AI** | Commercial SaaS | Proprietary Full-stack | Wix Proprietary AI Models | Wix Cloud Hosting | ❌ No |
+| **Durable** | Commercial SaaS | Node.js / React Cloud | Proprietary Generative Engine | Durable Subdomain / Custom Domain | ❌ No |
+
+---
+
+## How to Contribute
+
+Contributions are welcome and highly appreciated! To submit a new open-source project or suggest updates to existing tools:
+
+1. **Fork the repository** to your GitHub profile.
+2. **Create a descriptive feature branch**: `git checkout -b feature/add-new-builder`.
+3. **Format your submission**:
+   - For **Open-Source projects**: include repo link, social star badge linking to `/stargazers`, concise description, primary tech stack, and license.
+   - For **SaaS platforms**: include starting price, exact free tier / evaluation limits, and estimated company size.
+4. **Maintain chronological/star sorting**: ensure entries are placed in appropriate sections according to star counts or valuation metrics.
+5. **Open a Pull Request** with a brief summary of the added tool and its relevance.
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+---
+
+## Disclaimer
+
+This repository is maintained as an open community index for research, developer evaluation, and educational purposes. Listed trademarks, logos, and product names belong to their respective owners. Project maintainers do not guarantee pricing permanence or feature continuity for third-party SaaS services. Before deploying in production environments or handling proprietary customer data, verify license compliance, terms of service, and privacy policies.
+
+---
+
+<div align="center">
+
+**Made with ❤️ for developers, creators, and the open-source community.**  
+If you found this directory valuable, please **⭐ Star this repository** to help others discover it!
+
+</div>
