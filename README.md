@@ -69,7 +69,7 @@ Below is a breakdown of commercial AI website builders and landing page platform
 
 Explore battle-tested open-source website builders, landing page engines, and AI scaffolding templates you can self-host, audit, and extend without licensing lock-in 🔓.
 
-The repositories below are **sorted in descending order by GitHub Stars** ⭐:
+The repositories below are **sorted in descending order by GitHub_Stars** ⭐:
 
 ### 🏗️ Full AI Website & App Builders
 
@@ -179,9 +179,9 @@ Contributions are welcome and highly appreciated! 🎉 To submit a new open-sour
 1. **Fork the repository** to your GitHub profile 🍴.
 2. **Create a descriptive feature branch**: `git checkout -b feature/add-new-builder` 🌿.
 3. **Format your submission**:
-   - For **Open-Source projects**: include repo link, social star badge linking to `/stargazers`, concise description, primary tech stack, and license 📜.
+   - For **Open-Source projects**: include repo link, social Stars_Badge linking to `/stargazers`, concise description, primary tech stack, and license 📜.
    - For **SaaS platforms**: include starting price, exact free tier / evaluation limits, and estimated company size 🏷️.
-4. **Maintain chronological/star sorting**: ensure entries are placed in appropriate sections according to star counts or valuation metrics 📊.
+4. **Maintain chronological/star sorting**: ensure entries are placed in appropriate sections according to Stars_Counts or valuation metrics 📊.
 5. **Open a Pull Request** with a brief summary of the added tool and its relevance 🚀.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
